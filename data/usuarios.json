@@ -1,0 +1,326 @@
+[
+    {
+        "nombre": "Pedro",
+        "correo": "Martinez",
+        "contrase\u00f1a": "as123",
+        "latitud": "151515",
+        "longitud": "151554",
+        "ordenes": [
+            {
+                "nombreProducto": "Pastel Helado",
+                "imgProducto": "..\/img\/BasiliosPastelHelado.jpg",
+                "cantidad": 2,
+                "descripcion": "Pastel",
+                "precio": 150.99
+            },
+            {
+                "nombreProducto": "Pastel de Coraz\u00f3n",
+                "imgProducto": "..\/img\/BasiliosPastelCorazon.jpg",
+                "cantidad": 2,
+                "descripcion": "Pastele",
+                "precio": 350.99
+            },
+            {
+                "nombreProducto": "Pastel tres leches",
+                "imgProducto": "..\/img\/Basilios3Leches.jpg",
+                "cantidad": 2,
+                "descripcion": "Pastele",
+                "precio": 250.99
+            },
+            {
+                "nombreProducto": "Media Docena",
+                "imgProducto": "..\/img\/DkmediaDocena.jpg",
+                "cantidad": 2,
+                "descripcion": "Donuts",
+                "precio": 186.99
+            }
+        ],
+        "pedidos": [
+            {
+                "numeroPedido": 1,
+                "usuario": "Pedro",
+                "correo": "Martinez",
+                "fechaPago": "26\/06\/2022",
+                "total": 120,
+                "icv": 5,
+                "subTotal": 125,
+                "productos": [
+                    {
+                        "nombreProducto": "Pastel Helado",
+                        "cantidad": 2,
+                        "precio": 150.99
+                    },
+                    {
+                        "nombreProducto": "Pastel de Coraz\u00f3n",
+                        "cantidad": 2,
+                        "precio": 350.99
+                    },
+                    {
+                        "nombreProducto": "Pastel tres leches",
+                        "cantidad": 2,
+                        "precio": 250.99
+                    }
+                ]
+            }
+        ],
+        "metodoPago": [
+            {
+                "nombrePago": "Pedro Martinez",
+                "numeroTargeta": "123456",
+                "FechaExpiracion": "22\/02\/2022",
+                "CVV": "756"
+            }
+        ]
+    },
+    {
+        "nombre": "Juan",
+        "correo": "Perez",
+        "contrase\u00f1a": "as123",
+        "latitud": "151515",
+        "longitud": "151554",
+        "ordenes": [
+            {
+                "nombreProducto": "Media Docena",
+                "imgProducto": "..\/img\/DkmediaDocena.jpg",
+                "cantidad": 2,
+                "descripcion": "Donuts",
+                "precio": 186.99
+            },
+            {
+                "nombreProducto": "Docena de donas",
+                "imgProducto": "..\/img\/DKDocena.png",
+                "cantidad": 2,
+                "descripcion": "Donuts",
+                "precio": 279.99
+            },
+            {
+                "nombreProducto": "Dona + Caf\u00e9",
+                "imgProducto": "..\/img\/DKDonaCafe.jpg",
+                "cantidad": 2,
+                "descripcion": "Donas y caf\u00e9",
+                "precio": 59.99
+            },
+            {
+                "nombreProducto": "Pizza de peperoni",
+                "imgProducto": "..\/img\/PizzaPeperoni.jpg",
+                "cantidad": 1,
+                "descripcion": "Pizzas",
+                "precio": 110
+            }
+        ],
+        "pedidos": [
+            {
+                "numeroPedido": 1,
+                "usuario": "Juan",
+                "correo": "Perez",
+                "fechaPago": "26\/06\/2022",
+                "total": 120,
+                "icv": 5,
+                "subTotal": 125,
+                "productos": [
+                    {
+                        "nombreProducto": "Pastel Helado",
+                        "cantidad": 2,
+                        "precio": 150.99
+                    },
+                    {
+                        "nombreProducto": "Pastel de Coraz\u00f3n",
+                        "cantidad": 2,
+                        "precio": 350.99
+                    },
+                    {
+                        "nombreProducto": "Pastel tres leches",
+                        "cantidad": 2,
+                        "precio": 250.99
+                    }
+                ]
+            }
+        ],
+        "metodoPago": [
+            {
+                "nombrePago": "Juan Perez",
+                "numeroTargeta": "123456",
+                "FechaExpiracion": "22\/02\/2022",
+                "CVV": "756"
+            }
+        ]
+    },
+    {
+        "nombre": "Maria",
+        "correo": "Rodriguez",
+        "contrase\u00f1a": "as123",
+        "latitud": "151515",
+        "longitud": "151554",
+        "ordenes": [
+            {
+                "nombreProducto": "Media Docena",
+                "imgProducto": "..\/img\/DkmediaDocena.jpg",
+                "cantidad": 2,
+                "descripcion": "Donuts",
+                "precio": 186.99
+            },
+            {
+                "nombreProducto": "Docena de donas",
+                "imgProducto": "..\/img\/DKDocena.png",
+                "cantidad": 2,
+                "descripcion": "Donuts",
+                "precio": 279.99
+            },
+            {
+                "nombreProducto": "Dona + Caf\u00e9",
+                "imgProducto": "..\/img\/DKDonaCafe.jpg",
+                "cantidad": 2,
+                "descripcion": "Donas y caf\u00e9",
+                "precio": 59.99
+            }
+        ],
+        "pedidos": [
+            {
+                "numeroPedido": 1,
+                "usuario": "Maria",
+                "correo": "Rodriguez",
+                "fechaPago": "26\/06\/2022",
+                "total": 120,
+                "icv": 5,
+                "subTotal": 125,
+                "productos": [
+                    {
+                        "nombreProducto": "Pastel Helado",
+                        "cantidad": 2,
+                        "precio": 150.99
+                    },
+                    {
+                        "nombreProducto": "Pastel de Coraz\u00f3n",
+                        "cantidad": 2,
+                        "precio": 350.99
+                    },
+                    {
+                        "nombreProducto": "Pastel tres leches",
+                        "cantidad": 2,
+                        "precio": 250.99
+                    }
+                ]
+            }
+        ],
+        "metodoPago": [
+            {
+                "nombrePago": "Maria Rodriguez",
+                "numeroTargeta": "123456",
+                "FechaExpiracion": "22\/02\/2022",
+                "CVV": "756"
+            }
+        ]
+    },
+    {
+        "nombre": "Alejandro",
+        "correo": "ale@gmail.com",
+        "contrase\u00f1a": "moisa",
+        "latitud": "",
+        "longitud": "",
+        "ordenes": [],
+        "pedidos": [
+            {
+                "numeroPedido": 1,
+                "usuario": "Alejandro",
+                "correo": "ale@gmail.com",
+                "fechaPago": "21\/4\/2022",
+                "total": 302.427,
+                "icv": 39.447,
+                "subTotal": 262.98,
+                "productos": [
+                    {
+                        "nombreProducto": "Media Docena",
+                        "cantidad": 2,
+                        "precio": 186.99
+                    },
+                    {
+                        "nombreProducto": "Amoxicilina",
+                        "cantidad": 1,
+                        "precio": 75.99
+                    }
+                ]
+            },
+            {
+                "numeroPedido": 2,
+                "usuario": "Alejandro",
+                "correo": "ale@gmail.com",
+                "fechaPago": "24\/4\/2022",
+                "total": 126.5,
+                "icv": 16.5,
+                "subTotal": 110,
+                "productos": [
+                    {
+                        "nombreProducto": "Pizza de peperoni",
+                        "cantidad": 1,
+                        "precio": 110
+                    }
+                ]
+            },
+            {
+                "numeroPedido": 3,
+                "usuario": "Alejandro",
+                "correo": "ale@gmail.com",
+                "fechaPago": "24\/4\/2022",
+                "total": 229.98850000000002,
+                "icv": 29.9985,
+                "subTotal": 199.99,
+                "productos": [
+                    {
+                        "nombreProducto": "Pizza 4 estaciones",
+                        "cantidad": 1,
+                        "precio": 199.99
+                    }
+                ]
+            },
+            {
+                "numeroPedido": 4,
+                "usuario": "Alejandro",
+                "correo": "ale@gmail.com",
+                "fechaPago": "25\/4\/2022",
+                "total": 325.4155,
+                "icv": 42.4455,
+                "subTotal": 282.97,
+                "productos": [
+                    {
+                        "nombreProducto": "Doble cuarto de carne",
+                        "cantidad": 1,
+                        "precio": 250.99
+                    },
+                    {
+                        "nombreProducto": "Coca Cola de lata",
+                        "cantidad": 2,
+                        "precio": 31.98
+                    }
+                ]
+            }
+        ],
+        "metodoPago": []
+    },
+    {
+        "nombre": "moisa",
+        "correo": "moi@gmail.com",
+        "contrase\u00f1a": "as123",
+        "latitud": "",
+        "longitud": "",
+        "ordenes": [],
+        "pedidos": [
+            {
+                "numeroPedido": 1,
+                "usuario": "moisa",
+                "correo": "moi@gmail.com",
+                "fechaPago": "24\/4\/2022",
+                "total": 114.98849999999999,
+                "icv": 14.998499999999998,
+                "subTotal": 99.99,
+                "productos": [
+                    {
+                        "nombreProducto": "Big Mac",
+                        "cantidad": 1,
+                        "precio": 99.99
+                    }
+                ]
+            }
+        ],
+        "metodoPago": []
+    }
+]

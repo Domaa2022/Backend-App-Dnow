@@ -1,0 +1,620 @@
+[
+    {
+        "nombreCategoria": "Hamburguesa",
+        "imagen": "/img/categorias/Hamburguesa.jpg",
+        "empresas": [
+            {
+                
+                "nombreEmpresa": "McDonal's",
+                "logo": "/img/Hamburguesas/Mcdonal's/McDonalds-logo.png",
+                "banner": "/img/Hamburguesas/Mcdonal's/mcdonal.png",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Hamburguesa doble carne",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/doble carne.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/doble queso.jpg"
+                    },
+                    {
+                        "nombreProducto": "BigMac",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/bigman.jpg"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Wendy's",
+                "logo": "/img/Hamburguesas/wendy/wendys-logo-6.png",
+                "banner": "/img/Hamburguesas/wendy/wendy.webp",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Texana",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/wendy/texana.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/wendy/queso.jpg"
+                    },
+                    {
+                        "nombreProducto": "Baconator",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/wendy/643x378 Baconator.png"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Bigos",
+                "logo": "/img/Hamburguesas/Bigos/LOGO-BIGOS-REDNDO.png",
+                "banner": "/img/Hamburguesas/Bigos/bigos.jpg",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Hamburguesa doble carne",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/Bigos/doble carne.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa de pollo",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/Bigos/pollo.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/Bigos/queso.jpg"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Bigos",
+                "logo": "/img/Hamburguesas/burgerking/logo.png",
+                "banner": "/img/Hamburguesas/burgerking/BurgerKing.webp",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Whopper",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/burgerking/whopper.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa de pollo",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/burgerking/pollo.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/burgerking/queso.jpg"
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "nombreCategoria": "Pizzas",
+        "imagen": "/img/categorias/pizza.jpg",
+        "empresas": [
+            {
+                
+                "nombreEmpresa": "McDonal's",
+                "logo": "/img/Hamburguesas/Mcdonal's/McDonalds-logo.png",
+                "banner": "/img/Hamburguesas/Mcdonal's/mcdonal.png",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Hamburguesa doble carne",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/doble carne.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/doble queso.jpg"
+                    },
+                    {
+                        "nombreProducto": "BigMac",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/bigman.jpg"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Wendy's",
+                "logo": "/img/Hamburguesas/wendy/wendys-logo-6.png",
+                "banner": "/img/Hamburguesas/wendy/wendy.webp",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Texana",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/wendy/texana.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/wendy/queso.jpg"
+                    },
+                    {
+                        "nombreProducto": "Baconator",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/wendy/643x378 Baconator.png"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Bigos",
+                "logo": "/img/Hamburguesas/Bigos/LOGO-BIGOS-REDNDO.png",
+                "banner": "/img/Hamburguesas/Bigos/bigos.jpg",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Hamburguesa doble carne",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/Bigos/doble carne.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa de pollo",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/Bigos/pollo.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/Bigos/queso.jpg"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Bigos",
+                "logo": "/img/Hamburguesas/burgerking/logo.png",
+                "banner": "/img/Hamburguesas/burgerking/BurgerKing.webp",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Whopper",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/burgerking/whopper.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa de pollo",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/burgerking/pollo.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/burgerking/queso.jpg"
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "nombreCategoria": "sushi",
+        "imagen": "/img/categorias/sushi.jpg",
+        "empresas": [
+            {
+                
+                "nombreEmpresa": "McDonal's",
+                "logo": "/img/Hamburguesas/Mcdonal's/McDonalds-logo.png",
+                "banner": "/img/Hamburguesas/Mcdonal's/mcdonal.png",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Hamburguesa doble carne",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/doble carne.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/doble queso.jpg"
+                    },
+                    {
+                        "nombreProducto": "BigMac",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/bigman.jpg"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Wendy's",
+                "logo": "/img/Hamburguesas/wendy/wendys-logo-6.png",
+                "banner": "/img/Hamburguesas/wendy/wendy.webp",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Texana",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/wendy/texana.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/wendy/queso.jpg"
+                    },
+                    {
+                        "nombreProducto": "Baconator",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/wendy/643x378 Baconator.png"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Bigos",
+                "logo": "/img/Hamburguesas/Bigos/LOGO-BIGOS-REDNDO.png",
+                "banner": "/img/Hamburguesas/Bigos/bigos.jpg",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Hamburguesa doble carne",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/Bigos/doble carne.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa de pollo",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/Bigos/pollo.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/Bigos/queso.jpg"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Bigos",
+                "logo": "/img/Hamburguesas/burgerking/logo.png",
+                "banner": "/img/Hamburguesas/burgerking/BurgerKing.webp",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Whopper",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/burgerking/whopper.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa de pollo",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/burgerking/pollo.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/burgerking/queso.jpg"
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "nombreCategoria": "Bebidas",
+        "imagen": "/img/categorias/bebidas.jpg",
+        "empresas": [
+            {
+                
+                "nombreEmpresa": "McDonal's",
+                "logo": "/img/Hamburguesas/Mcdonal's/McDonalds-logo.png",
+                "banner": "/img/Hamburguesas/Mcdonal's/mcdonal.png",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Hamburguesa doble carne",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/doble carne.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/doble queso.jpg"
+                    },
+                    {
+                        "nombreProducto": "BigMac",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/bigman.jpg"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Wendy's",
+                "logo": "/img/Hamburguesas/wendy/wendys-logo-6.png",
+                "banner": "/img/Hamburguesas/wendy/wendy.webp",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Texana",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/wendy/texana.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/wendy/queso.jpg"
+                    },
+                    {
+                        "nombreProducto": "Baconator",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/wendy/643x378 Baconator.png"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Bigos",
+                "logo": "/img/Hamburguesas/Bigos/LOGO-BIGOS-REDNDO.png",
+                "banner": "/img/Hamburguesas/Bigos/bigos.jpg",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Hamburguesa doble carne",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/Bigos/doble carne.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa de pollo",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/Bigos/pollo.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/Bigos/queso.jpg"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Bigos",
+                "logo": "/img/Hamburguesas/burgerking/logo.png",
+                "banner": "/img/Hamburguesas/burgerking/BurgerKing.webp",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Whopper",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/burgerking/whopper.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa de pollo",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/burgerking/pollo.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/burgerking/queso.jpg"
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "nombreCategoria": "Farmacia",
+        "imagen": "/img/categorias/farmacia.jpg",
+        "empresas": [
+            {
+                
+                "nombreEmpresa": "McDonal's",
+                "logo": "/img/Hamburguesas/Mcdonal's/McDonalds-logo.png",
+                "banner": "/img/Hamburguesas/Mcdonal's/mcdonal.png",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Hamburguesa doble carne",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/doble carne.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/doble queso.jpg"
+                    },
+                    {
+                        "nombreProducto": "BigMac",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/bigman.jpg"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Wendy's",
+                "logo": "/img/Hamburguesas/wendy/wendys-logo-6.png",
+                "banner": "/img/Hamburguesas/wendy/wendy.webp",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Texana",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/wendy/texana.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/wendy/queso.jpg"
+                    },
+                    {
+                        "nombreProducto": "Baconator",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/wendy/643x378 Baconator.png"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Bigos",
+                "logo": "/img/Hamburguesas/Bigos/LOGO-BIGOS-REDNDO.png",
+                "banner": "/img/Hamburguesas/Bigos/bigos.jpg",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Hamburguesa doble carne",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/Bigos/doble carne.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa de pollo",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/Bigos/pollo.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/Bigos/queso.jpg"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Bigos",
+                "logo": "/img/Hamburguesas/burgerking/logo.png",
+                "banner": "/img/Hamburguesas/burgerking/BurgerKing.webp",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Whopper",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/burgerking/whopper.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa de pollo",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/burgerking/pollo.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/burgerking/queso.jpg"
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "nombreCategoria": "Electronica",
+        "imagen": "/img/categorias/Electronica.jpg",
+        "empresas": [
+            {
+                
+                "nombreEmpresa": "McDonal's",
+                "logo": "/img/Hamburguesas/Mcdonal's/McDonalds-logo.png",
+                "banner": "/img/Hamburguesas/Mcdonal's/mcdonal.png",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Hamburguesa doble carne",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/doble carne.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/doble queso.jpg"
+                    },
+                    {
+                        "nombreProducto": "BigMac",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/Mcdonal's/bigman.jpg"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Wendy's",
+                "logo": "/img/Hamburguesas/wendy/wendys-logo-6.png",
+                "banner": "/img/Hamburguesas/wendy/wendy.webp",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Texana",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/wendy/texana.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/wendy/queso.jpg"
+                    },
+                    {
+                        "nombreProducto": "Baconator",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/wendy/643x378 Baconator.png"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Bigos",
+                "logo": "/img/Hamburguesas/Bigos/LOGO-BIGOS-REDNDO.png",
+                "banner": "/img/Hamburguesas/Bigos/bigos.jpg",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Hamburguesa doble carne",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/Bigos/doble carne.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa de pollo",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/Bigos/pollo.jpg"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/Bigos/queso.jpg"
+                    }
+                ]
+            },
+            {
+                
+                "nombreEmpresa": "Bigos",
+                "logo": "/img/Hamburguesas/burgerking/logo.png",
+                "banner": "/img/Hamburguesas/burgerking/BurgerKing.webp",
+                "descripcion": "Hamburguesas-Papas",
+                "productos": [
+                    {
+                        "nombreProducto": "Whopper",
+                        "precio": "20",
+                        "imagen": "/img/Hamburguesas/burgerking/whopper.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa de pollo",
+                        "precio": "30",
+                        "imagen": "/img/Hamburguesas/burgerking/pollo.png"
+                    },
+                    {
+                        "nombreProducto": "Hamburguesa con queso",
+                        "precio": "40",
+                        "imagen": "/img/Hamburguesas/burgerking/queso.jpg"
+                    }
+                ]
+            }
+            
+        ]
+    }
+]
