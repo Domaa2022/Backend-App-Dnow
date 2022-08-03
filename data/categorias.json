@@ -108,97 +108,97 @@
         "empresas": [
             {
                 
-                "nombreEmpresa": "McDonal's",
-                "logo": "/img/Hamburguesas/Mcdonal's/McDonalds-logo.png",
-                "banner": "/img/Hamburguesas/Mcdonal's/mcdonal.png",
-                "descripcion": "Hamburguesas-Papas",
+                "nombreEmpresa": "Pizza Hut",
+                "logo": "/img/Pîzza/Pizza hut/logo.png",
+                "banner": "/img/Pîzza/Pizza hut/banner.jpg",
+                "descripcion": "Pizzas",
                 "productos": [
                     {
-                        "nombreProducto": "Hamburguesa doble carne",
+                        "nombreProducto": "Pizza de queso",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/Mcdonal's/doble carne.jpg"
+                        "imagen": "/img/Pîzza/Pizza hut/queso.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "Pizza con jalapeño",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/Mcdonal's/doble queso.jpg"
+                        "imagen": "/img/Pîzza/Pizza hut/jalapeño.webp"
                     },
                     {
-                        "nombreProducto": "BigMac",
+                        "nombreProducto": "Pizza suprema",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/Mcdonal's/bigman.jpg"
+                        "imagen": "/img/Pîzza/Pizza hut/suprema.jp"
                     }
                 ]
             },
             {
                 
-                "nombreEmpresa": "Wendy's",
-                "logo": "/img/Hamburguesas/wendy/wendys-logo-6.png",
-                "banner": "/img/Hamburguesas/wendy/wendy.webp",
-                "descripcion": "Hamburguesas-Papas",
+                "nombreEmpresa": "Little Caesars",
+                "logo": "/img/Pîzza/little caesars/logos.png",
+                "banner": "/img/Pîzza/little caesars/Little-Caesar_banner.jpg",
+                "descripcion": "Pizzas",
                 "productos": [
                     {
-                        "nombreProducto": "Texana",
+                        "nombreProducto": "Pizza con carne",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/wendy/texana.jpg"
+                        "imagen": "/img/Pîzza/little caesars/carne.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "Pizza de queso",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/wendy/queso.jpg"
+                        "imagen": "/img/Pîzza/little caesars/queso.jpg"
                     },
                     {
-                        "nombreProducto": "Baconator",
+                        "nombreProducto": "Pizza de peperoni",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/wendy/643x378 Baconator.png"
+                        "imagen": "/img/Pîzza/little caesars/peperoni.jpg"
                     }
                 ]
             },
             {
                 
-                "nombreEmpresa": "Bigos",
-                "logo": "/img/Hamburguesas/Bigos/LOGO-BIGOS-REDNDO.png",
-                "banner": "/img/Hamburguesas/Bigos/bigos.jpg",
+                "nombreEmpresa": "Dominos Pizza",
+                "logo": "/img/Pîzza/dominos/logo.png",
+                "banner": "/img/Pîzza/dominos/banner.jpg",
                 "descripcion": "Hamburguesas-Papas",
                 "productos": [
                     {
-                        "nombreProducto": "Hamburguesa doble carne",
+                        "nombreProducto": "Pizza de peperoni",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/Bigos/doble carne.png"
+                        "imagen": "/img/Pîzza/dominos/peperoni.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa de pollo",
+                        "nombreProducto": "Pizza con piña",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/Bigos/pollo.jpg"
+                        "imagen": "/img/Pîzza/dominos/piña.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "Pizza suprema",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/Bigos/queso.jpg"
+                        "imagen": "/img/Pîzza/dominos/suprema.jpg"
                     }
                 ]
             },
             {
                 
-                "nombreEmpresa": "Bigos",
-                "logo": "/img/Hamburguesas/burgerking/logo.png",
-                "banner": "/img/Hamburguesas/burgerking/BurgerKing.webp",
-                "descripcion": "Hamburguesas-Papas",
+                "nombreEmpresa": "Papá John",
+                "logo": "/img/Pîzza/papa pizza/logo.png",
+                "banner": "/img/Pîzza/papa pizza/banner.jpg",
+                "descripcion": "Pizzas",
                 "productos": [
                     {
-                        "nombreProducto": "Whopper",
+                        "nombreProducto": "Pizza de peperoni",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/burgerking/whopper.png"
+                        "imagen": "/img/Pîzza/papa pizza/banner.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa de pollo",
+                        "nombreProducto": "Pizza de peperoni",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/burgerking/pollo.png"
+                        "imagen": "/img/Pîzza/papa pizza/peperoni.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "Pizza suprema",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/burgerking/queso.jpg"
+                        "imagen": "/img/Pîzza/papa pizza/suprema.jpg"
                     }
                 ]
             }
@@ -206,105 +206,82 @@
         ]
     },
     {
-        "nombreCategoria": "sushi",
+        "nombreCategoria": "Sushi",
         "imagen": "/img/categorias/sushi.jpg",
         "empresas": [
             {
                 
-                "nombreEmpresa": "McDonal's",
-                "logo": "/img/Hamburguesas/Mcdonal's/McDonalds-logo.png",
-                "banner": "/img/Hamburguesas/Mcdonal's/mcdonal.png",
-                "descripcion": "Hamburguesas-Papas",
+                "nombreEmpresa": "Furiwa",
+                "logo": "/img/Sushi/furiwa/logo.png",
+                "banner": "/img/Sushi/furiwa/banner.jpg",
+                "descripcion": "Sushi",
                 "productos": [
                     {
-                        "nombreProducto": "Hamburguesa doble carne",
+                        "nombreProducto": "Sushi Kyoto",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/Mcdonal's/doble carne.jpg"
+                        "imagen": "/img/Sushi/furiwa/Sushi Kyoto.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "Sushi Primavera",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/Mcdonal's/doble queso.jpg"
+                        "imagen": "/img/Sushi/furiwa/Sushi Primavera.jpg"
                     },
                     {
-                        "nombreProducto": "BigMac",
+                        "nombreProducto": "Sushi Tokyo",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/Mcdonal's/bigman.jpg"
+                        "imagen": "/img/Sushi/furiwa/Sushi Tokyo.jpg"
                     }
                 ]
             },
             {
                 
-                "nombreEmpresa": "Wendy's",
-                "logo": "/img/Hamburguesas/wendy/wendys-logo-6.png",
-                "banner": "/img/Hamburguesas/wendy/wendy.webp",
-                "descripcion": "Hamburguesas-Papas",
+                "nombreEmpresa": "Sushi2Go",
+                "logo": "/img/Sushi/sushi2go/logo.png",
+                "banner": "/img/Sushi/sushi2go/banner.png",
+                "descripcion": "Sushi",
                 "productos": [
                     {
-                        "nombreProducto": "Texana",
+                        "nombreProducto": "Sushi con salmon",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/wendy/texana.jpg"
+                        "imagen": "/img/Sushi/sushi2go/salmon sushi.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "Sushi Especial ",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/wendy/queso.jpg"
+                        "imagen": "/img/Sushi/sushi2go/sushi especial.jpg"
                     },
                     {
-                        "nombreProducto": "Baconator",
+                        "nombreProducto": "Sushi pack",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/wendy/643x378 Baconator.png"
+                        "imagen": "/img/Sushi/sushi2go/sushi pacl.jpg"
                     }
                 ]
             },
             {
                 
-                "nombreEmpresa": "Bigos",
-                "logo": "/img/Hamburguesas/Bigos/LOGO-BIGOS-REDNDO.png",
-                "banner": "/img/Hamburguesas/Bigos/bigos.jpg",
-                "descripcion": "Hamburguesas-Papas",
+                "nombreEmpresa": "Tamago Sushi",
+                "logo": "/img/Sushi/tamago/logo.jpg",
+                "banner": "/img/Sushi/tamago/banner.jpg",
+                "descripcion": "Sushi",
                 "productos": [
                     {
-                        "nombreProducto": "Hamburguesa doble carne",
+                        "nombreProducto": "Sushi con aguacate",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/Bigos/doble carne.png"
+                        "imagen": "/img/Sushi/tamago/sushi con aguatae.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa de pollo",
+                        "nombreProducto": "Sushi Primavera",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/Bigos/pollo.jpg"
+                        "imagen": "/img/Sushi/tamago/sushi primavera.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "Sushi Tamago",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/Bigos/queso.jpg"
-                    }
-                ]
-            },
-            {
-                
-                "nombreEmpresa": "Bigos",
-                "logo": "/img/Hamburguesas/burgerking/logo.png",
-                "banner": "/img/Hamburguesas/burgerking/BurgerKing.webp",
-                "descripcion": "Hamburguesas-Papas",
-                "productos": [
-                    {
-                        "nombreProducto": "Whopper",
-                        "precio": "20",
-                        "imagen": "/img/Hamburguesas/burgerking/whopper.png"
-                    },
-                    {
-                        "nombreProducto": "Hamburguesa de pollo",
-                        "precio": "30",
-                        "imagen": "/img/Hamburguesas/burgerking/pollo.png"
-                    },
-                    {
-                        "nombreProducto": "Hamburguesa con queso",
-                        "precio": "40",
-                        "imagen": "/img/Hamburguesas/burgerking/queso.jpg"
+                        "imagen": "/img/Sushi/tamago/sushi tamago.jpg"
                     }
                 ]
             }
+           
             
         ]
     },
@@ -314,100 +291,77 @@
         "empresas": [
             {
                 
-                "nombreEmpresa": "McDonal's",
-                "logo": "/img/Hamburguesas/Mcdonal's/McDonalds-logo.png",
-                "banner": "/img/Hamburguesas/Mcdonal's/mcdonal.png",
-                "descripcion": "Hamburguesas-Papas",
+                "nombreEmpresa": "CocaCola",
+                "logo": "/img/Bebidas/coca/cocacola logo.png",
+                "banner": "/img/Bebidas/coca/cocacola banner.png",
+                "descripcion": "Bebidas",
                 "productos": [
                     {
-                        "nombreProducto": "Hamburguesa doble carne",
+                        "nombreProducto": "Cocacola Portatil",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/Mcdonal's/doble carne.jpg"
+                        "imagen": "/img/Bebidas/coca/coca portatil.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "Fanta de lata",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/Mcdonal's/doble queso.jpg"
+                        "imagen": "/img/Bebidas/coca/fanta de lata.jpg"
                     },
                     {
-                        "nombreProducto": "BigMac",
+                        "nombreProducto": "Monster Lata",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/Mcdonal's/bigman.jpg"
+                        "imagen": "/img/Bebidas/coca/moster lata.webp"
                     }
                 ]
             },
             {
                 
-                "nombreEmpresa": "Wendy's",
-                "logo": "/img/Hamburguesas/wendy/wendys-logo-6.png",
-                "banner": "/img/Hamburguesas/wendy/wendy.webp",
-                "descripcion": "Hamburguesas-Papas",
+                "nombreEmpresa": "Cervezas HN",
+                "logo": "/img/Bebidas/cerveza/logotipo-cerveceria-monocromatica-vintage_225004-1214.jpg",
+                "banner": "/img/Bebidas/cerveza/cerveza banner.jpg",
+                "descripcion": "Cervezas",
                 "productos": [
                     {
-                        "nombreProducto": "Texana",
+                        "nombreProducto": "Corona",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/wendy/texana.jpg"
+                        "imagen": "/img/Bebidas/cerveza/corona.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "Barena",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/wendy/queso.jpg"
+                        "imagen": "/img/Bebidas/cerveza/barena.jpg"
                     },
                     {
-                        "nombreProducto": "Baconator",
+                        "nombreProducto": "SalvaVida",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/wendy/643x378 Baconator.png"
+                        "imagen": "/img/Bebidas/cerveza/salva vida.jpg"
                     }
                 ]
             },
             {
                 
-                "nombreEmpresa": "Bigos",
-                "logo": "/img/Hamburguesas/Bigos/LOGO-BIGOS-REDNDO.png",
-                "banner": "/img/Hamburguesas/Bigos/bigos.jpg",
-                "descripcion": "Hamburguesas-Papas",
+                "nombreEmpresa": "Milshake",
+                "logo": "/img/Bebidas/milkshake/milkshake logo.jpg",
+                "banner": "/img/Bebidas/milkshake/banner.jpg",
+                "descripcion": "Milshake",
                 "productos": [
                     {
-                        "nombreProducto": "Hamburguesa doble carne",
+                        "nombreProducto": "Milshake Chocolate",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/Bigos/doble carne.png"
+                        "imagen": "/img/Bebidas/milkshake/chocolate.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa de pollo",
+                        "nombreProducto": "Milshake Fresa",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/Bigos/pollo.jpg"
+                        "imagen": "/img/Bebidas/milkshake/fresa.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "Milshake Vainilla",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/Bigos/queso.jpg"
-                    }
-                ]
-            },
-            {
-                
-                "nombreEmpresa": "Bigos",
-                "logo": "/img/Hamburguesas/burgerking/logo.png",
-                "banner": "/img/Hamburguesas/burgerking/BurgerKing.webp",
-                "descripcion": "Hamburguesas-Papas",
-                "productos": [
-                    {
-                        "nombreProducto": "Whopper",
-                        "precio": "20",
-                        "imagen": "/img/Hamburguesas/burgerking/whopper.png"
-                    },
-                    {
-                        "nombreProducto": "Hamburguesa de pollo",
-                        "precio": "30",
-                        "imagen": "/img/Hamburguesas/burgerking/pollo.png"
-                    },
-                    {
-                        "nombreProducto": "Hamburguesa con queso",
-                        "precio": "40",
-                        "imagen": "/img/Hamburguesas/burgerking/queso.jpg"
+                        "imagen": "/img/Bebidas/milkshake/vainilla.jpg"
                     }
                 ]
             }
+            
             
         ]
     },
@@ -417,97 +371,97 @@
         "empresas": [
             {
                 
-                "nombreEmpresa": "McDonal's",
-                "logo": "/img/Hamburguesas/Mcdonal's/McDonalds-logo.png",
-                "banner": "/img/Hamburguesas/Mcdonal's/mcdonal.png",
-                "descripcion": "Hamburguesas-Papas",
+                "nombreEmpresa": "Farmacia Siman",
+                "logo": "/img/Farmacia/Siman/LogoWeb_200.png",
+                "banner": "/img/Farmacia/Siman/siman.png",
+                "descripcion": "Medicinas",
                 "productos": [
                     {
-                        "nombreProducto": "Hamburguesa doble carne",
+                        "nombreProducto": "Panado Multisintomas",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/Mcdonal's/doble carne.jpg"
+                        "imagen": "/img/Farmacia/Siman/panadol extra fuerte.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "Panado Exta fuerte",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/Mcdonal's/doble queso.jpg"
+                        "imagen": "/img/Farmacia/Siman/Tabletas-Panadol-Extra-Fuerte-16-Und-1-11032.png"
                     },
                     {
-                        "nombreProducto": "BigMac",
+                        "nombreProducto": "Ibuprofeno",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/Mcdonal's/bigman.jpg"
+                        "imagen": "/img/Farmacia/Siman/download.jpg"
                     }
                 ]
             },
             {
                 
-                "nombreEmpresa": "Wendy's",
-                "logo": "/img/Hamburguesas/wendy/wendys-logo-6.png",
-                "banner": "/img/Hamburguesas/wendy/wendy.webp",
-                "descripcion": "Hamburguesas-Papas",
+                "nombreEmpresa": "Farmacia Kielsa",
+                "logo": "/img/Farmacia/Siman/logo.png",
+                "banner": "/img/Farmacia/Siman/banner.jpg",
+                "descripcion": "Medicinas",
                 "productos": [
                     {
-                        "nombreProducto": "Texana",
+                        "nombreProducto": "Panado Multisintomas",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/wendy/texana.jpg"
+                        "imagen": "/img/Farmacia/Siman/panadol extra fuerte.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "Panado Exta fuerte",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/wendy/queso.jpg"
+                        "imagen": "/img/Farmacia/Siman/Tabletas-Panadol-Extra-Fuerte-16-Und-1-11032.png"
                     },
                     {
-                        "nombreProducto": "Baconator",
+                        "nombreProducto": "Ibuprofeno",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/wendy/643x378 Baconator.png"
+                        "imagen": "/img/Farmacia/Siman/download.jpg"
                     }
                 ]
             },
             {
                 
-                "nombreEmpresa": "Bigos",
-                "logo": "/img/Hamburguesas/Bigos/LOGO-BIGOS-REDNDO.png",
-                "banner": "/img/Hamburguesas/Bigos/bigos.jpg",
+                "nombreEmpresa": "Punto Farma",
+                "logo": "/img/Farmacia/Siman/puto farma logo.png",
+                "banner": "/img/Farmacia/Siman/puto farma banner.png",
                 "descripcion": "Hamburguesas-Papas",
                 "productos": [
                     {
-                        "nombreProducto": "Hamburguesa doble carne",
+                        "nombreProducto": "Panado Multisintomas",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/Bigos/doble carne.png"
+                        "imagen": "/img/Farmacia/Siman/panadol extra fuerte.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa de pollo",
+                        "nombreProducto": "Panado Exta fuerte",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/Bigos/pollo.jpg"
+                        "imagen": "/img/Farmacia/Siman/Tabletas-Panadol-Extra-Fuerte-16-Und-1-11032.png"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "Ibuprofeno",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/Bigos/queso.jpg"
+                        "imagen": "/img/Farmacia/Siman/download.jpg"
                     }
                 ]
             },
             {
                 
-                "nombreEmpresa": "Bigos",
-                "logo": "/img/Hamburguesas/burgerking/logo.png",
-                "banner": "/img/Hamburguesas/burgerking/BurgerKing.webp",
+                "nombreEmpresa": "The Farmacy HN",
+                "logo": "/img/Farmacia/Siman/thefarmacy logo.jpg",
+                "banner": "/img/Farmacia/Siman/the farmacy banner.jpg",
                 "descripcion": "Hamburguesas-Papas",
                 "productos": [
                     {
-                        "nombreProducto": "Whopper",
+                        "nombreProducto": "Panado Multisintomas",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/burgerking/whopper.png"
+                        "imagen": "/img/Farmacia/Siman/panadol extra fuerte.jpg"
                     },
                     {
-                        "nombreProducto": "Hamburguesa de pollo",
+                        "nombreProducto": "Panado Exta fuerte",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/burgerking/pollo.png"
+                        "imagen": "/img/Farmacia/Siman/Tabletas-Panadol-Extra-Fuerte-16-Und-1-11032.png"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "Ibuprofeno",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/burgerking/queso.jpg"
+                        "imagen": "/img/Farmacia/Siman/download.jpg"
                     }
                 ]
             }
@@ -520,97 +474,97 @@
         "empresas": [
             {
                 
-                "nombreEmpresa": "McDonal's",
-                "logo": "/img/Hamburguesas/Mcdonal's/McDonalds-logo.png",
-                "banner": "/img/Hamburguesas/Mcdonal's/mcdonal.png",
-                "descripcion": "Hamburguesas-Papas",
+                "nombreEmpresa": "Diusa",
+                "logo": "/img/Electronica/diusa logo.jpg",
+                "banner": "/img/Electronica/diusa banner.png",
+                "descripcion": "Electronica",
                 "productos": [
                     {
-                        "nombreProducto": "Hamburguesa doble carne",
+                        "nombreProducto": "Televisor Samsung",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/Mcdonal's/doble carne.jpg"
+                        "imagen": "/img/Electronica/televisor samsung.webp"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "PS5",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/Mcdonal's/doble queso.jpg"
+                        "imagen": "/img/Electronica/ps5.webp"
                     },
                     {
-                        "nombreProducto": "BigMac",
+                        "nombreProducto": "IPhone 13",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/Mcdonal's/bigman.jpg"
+                        "imagen": "/img/Electronica/iphone 13.jpg"
                     }
                 ]
             },
             {
                 
-                "nombreEmpresa": "Wendy's",
-                "logo": "/img/Hamburguesas/wendy/wendys-logo-6.png",
-                "banner": "/img/Hamburguesas/wendy/wendy.webp",
-                "descripcion": "Hamburguesas-Papas",
+                "nombreEmpresa": "Jestereo",
+                "logo": "/img/Electronica/jestereologo.png",
+                "banner": "/img/Electronica/jetstereobanner.png",
+                "descripcion": "Electronica",
                 "productos": [
                     {
-                        "nombreProducto": "Texana",
+                        "nombreProducto": "Televisor Samsung",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/wendy/texana.jpg"
+                        "imagen": "/img/Electronica/televisor samsung.webp"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "PS5",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/wendy/queso.jpg"
+                        "imagen": "/img/Electronica/ps5.webp"
                     },
                     {
-                        "nombreProducto": "Baconator",
+                        "nombreProducto": "IPhone 13",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/wendy/643x378 Baconator.png"
+                        "imagen": "/img/Electronica/iphone 13.jpg"
                     }
                 ]
             },
             {
                 
-                "nombreEmpresa": "Bigos",
-                "logo": "/img/Hamburguesas/Bigos/LOGO-BIGOS-REDNDO.png",
-                "banner": "/img/Hamburguesas/Bigos/bigos.jpg",
-                "descripcion": "Hamburguesas-Papas",
+                "nombreEmpresa": "Lady Lee",
+                "logo": "/img/Electronica/lady lee.jpg",
+                "banner": "/img/Electronica/lady llee banner.jpg",
+                "descripcion": "Electronica",
                 "productos": [
                     {
-                        "nombreProducto": "Hamburguesa doble carne",
+                        "nombreProducto": "Televisor Samsung",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/Bigos/doble carne.png"
+                        "imagen": "/img/Electronica/televisor samsung.webp"
                     },
                     {
-                        "nombreProducto": "Hamburguesa de pollo",
+                        "nombreProducto": "PS5",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/Bigos/pollo.jpg"
+                        "imagen": "/img/Electronica/ps5.webp"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "IPhone 13",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/Bigos/queso.jpg"
+                        "imagen": "/img/Electronica/iphone 13.jpg"
                     }
                 ]
             },
             {
                 
-                "nombreEmpresa": "Bigos",
-                "logo": "/img/Hamburguesas/burgerking/logo.png",
-                "banner": "/img/Hamburguesas/burgerking/BurgerKing.webp",
-                "descripcion": "Hamburguesas-Papas",
+                "nombreEmpresa": "Radio Shack",
+                "logo": "/img/Electronica/radioshack logo.jpg",
+                "banner": "/img/Electronica/radio-shack.jpg",
+                "descripcion": "Electronica",
                 "productos": [
                     {
-                        "nombreProducto": "Whopper",
+                        "nombreProducto": "Televisor Samsung",
                         "precio": "20",
-                        "imagen": "/img/Hamburguesas/burgerking/whopper.png"
+                        "imagen": "/img/Electronica/televisor samsung.webp"
                     },
                     {
-                        "nombreProducto": "Hamburguesa de pollo",
+                        "nombreProducto": "PS5",
                         "precio": "30",
-                        "imagen": "/img/Hamburguesas/burgerking/pollo.png"
+                        "imagen": "/img/Electronica/ps5.webp"
                     },
                     {
-                        "nombreProducto": "Hamburguesa con queso",
+                        "nombreProducto": "IPhone 13",
                         "precio": "40",
-                        "imagen": "/img/Hamburguesas/burgerking/queso.jpg"
+                        "imagen": "/img/Electronica/iphone 13.jpg"
                     }
                 ]
             }

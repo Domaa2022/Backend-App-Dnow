@@ -39,4 +39,26 @@ router.post('/', function(req, res,) {
 
 });
 
+//servicio para guardar una orden de un usuario
+router.post('/:id', function(req, res,) {
+    let u =  {
+        nombreProducto : req.body.nombreProducto,
+        precio : req.body.precio * req.body.cantidad,
+        imagen : req.body.imagen,
+        cantidad : req.body.cantidad,
+    }
+    usuario.find({_id:req.params.id})
+    .then(result =>{
+        result[0].ordenes.push(u);
+        result[0].save();
+        res.send(result[0])
+        res.end();
+    })
+    .catch(err => {
+        res.send(err)
+        res.end()
+    }) 
+}
+)
+
 module.exports = router;
