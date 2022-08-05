@@ -80,7 +80,33 @@ router.post('/:id', function(req, res,) {
 }
 )
 
+//servicio para guardar un pedido de un usuario 
+router.post('/pedido/:id' , function(req,res){
+    let pedido = {
+        numeroPedido : req.body.numeroPedido,
+        usuario : req.body.usuario,
+        correo : req.body.correo,
+        fechaPago: req.body.fechaPago,
+        precioPedido: req.body.precioPedido,
+        ISV: req.body.ISV,
+        precioTotal: req.body.PrecioTotal,
+        productos : req.body.productos
+    }
+    usuario.find({_id:req.params.id})
+    .then(result => {
+        result[0].pedidos.push(pedido)
+        result[0].save()
+        res.send(result[0])
+        res.end();
+    }).catch(err => {
+        res.send(err)
+        res.end()
+    })
+})
 
+
+
+// servicio para eliminar una orden 
 router.delete('/:id/:indiceProducto', (req,res)  => {
     let indiceProducto = req.params.indiceProducto
     usuario.find({_id:req.params.id})
@@ -95,5 +121,46 @@ router.delete('/:id/:indiceProducto', (req,res)  => {
         res.end()
     }) 
 } )
+
+router.delete('/:id' ,(req,res) =>{
+    usuario.find({_id:req.params.id})
+    .then(result => {
+        result[0].ordenes.splice(0, result[0].ordenes.length)
+        result[0].save()
+        res.send(result[0]) 
+        res.end();
+    }).catch(err => {
+        res.send(err)
+        res.end()
+    }) 
+})
+
+//Actualizar la ubicacion del usuario
+
+router.put('/:id', (req,res) => {
+    usuario.updateOne(
+        {
+            _id: req.params.id
+        },
+        {
+            $set : {
+                latitud : req.body.latitud,
+                longitud: req.body.longitud
+            }
+
+        }
+    
+        ).then( result => {
+            res.send(result);
+            res.end()
+
+        }).catch(err => {
+            res.send("hola")
+            res.end()
+        }) 
+})
+
+
+
 
 module.exports = router;
