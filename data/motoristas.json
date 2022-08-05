@@ -1,0 +1,49 @@
+[ {
+    "nombreMotorista": "Anakin",
+    "correo": "Skywalker",
+    "contraseña": "YuUMP987",
+    "latitud":"151515",
+    "longitud":"151554",
+    "historialOrden": [
+            {
+    
+    "pedidos": [
+        {
+            "numeroPedido": 1,
+            "usuario": "Juan",
+            "correo": "Perez",
+            "fechaPago": "26\/06\/2022",
+            "total": 120,
+            "icv": 5,
+            "subTotal": 125,
+            "productos": [
+                {
+                    "nombreProducto": "Pastel Helado",
+                    "cantidad": 2,
+                    "precio": 150.99
+                },
+                {
+                    "nombreProducto": "Pastel de Coraz\u00f3n",
+                    "cantidad": 2,
+                    "precio": 350.99
+                },
+                {
+                    "nombreProducto": "Pastel tres leches",
+                    "cantidad": 2,
+                    "precio": 250.99
+                }
+            ]
+        }
+    ],
+    "metodoPago": [
+        {
+            "nombrePago": "Juan Perez",
+            "numeroTargeta": "123456",
+            "FechaExpiracion": "22\/02\/2022",
+            "CVV": "756"
+        }
+    ]
+        }
+    
+]
+}]

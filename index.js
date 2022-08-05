@@ -3,7 +3,8 @@ var bodyParser = require('body-parser');
 var cors = require('cors');
 var database = require('./modules/database')
 var usuariosRouter = require('./router/usuarios-router');
-var categoriaRouter = require('./router/categorias-router')
+var categoriaRouter = require('./router/categorias-router');
+var motoristasRouter = require('./router/motoristas-router')
 var app = express();
 
 //Middleware
@@ -12,6 +13,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/usuarios',usuariosRouter);
 app.use('/categorias',categoriaRouter);
+app.use('/motoristas', motoristasRouter)
 
 
 app.get('/', function (req, res) {
