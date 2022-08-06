@@ -2,11 +2,12 @@ var express = require('express');
 var router = express.Router();
 var usuario = require('../models/usuario');
 var motorista = require('../models/motorista');
+var administrador = require('../models/administrador');
 var mongoose = require('mongoose');
 
 //servicio para datos login
 router.get('/',function(req, res, ){
-    motorista.find({})
+    administrador.find({})
     .then( (data)=> {
         res.send(data);
         res.end();
@@ -59,3 +60,6 @@ router.delete('/:id' ,(req,res) =>{
         res.end()
     }) 
 })
+
+
+module.exports = router;

@@ -42,3 +42,6 @@ router.put('/:id', (req,res) => {
             res.end()
         }) 
 })
+
+
+module.exports = router;

@@ -13,3 +13,4 @@ var esquema = new mongoose.Schema({
     metodoPago: Array
 })
 
+module.exports = mongoose.model('motoristas',esquema)
