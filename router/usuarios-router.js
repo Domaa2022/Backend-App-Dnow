@@ -90,7 +90,12 @@ router.post('/pedido/:id' , function(req,res){
         precioPedido: req.body.precioPedido,
         ISV: req.body.ISV,
         precioTotal: req.body.PrecioTotal,
-        productos : req.body.productos
+        productos : req.body.productos,
+        Estado : req.body.Estado,
+        fechaEntrega: req.body.fechaPago,
+        Recibe: req.body.Recibe,
+        correoMotorista:req.body.correoMotorista
+
     }
     usuario.find({_id:req.params.id})
     .then(result => {
@@ -121,6 +126,8 @@ router.delete('/:id/:indiceProducto', (req,res)  => {
         res.end()
     }) 
 } )
+
+// servicio para eliminar ordenes ya hechas pedido 
 
 router.delete('/:id' ,(req,res) =>{
     usuario.find({_id:req.params.id})
