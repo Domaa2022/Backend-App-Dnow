@@ -11,6 +11,7 @@ router.get('/',function(req, res, ){
     .then( (data)=> {
         res.send(data);
         res.end();
+
     })
     .catch(err => {
         res.send(err);
