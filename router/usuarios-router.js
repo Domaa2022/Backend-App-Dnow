@@ -3,7 +3,7 @@ var router = express.Router();
 var usuario = require('../models/usuario')
 var mongoose = require('mongoose');
 
-//Servicio para obtener correo y contraseña de un usuario
+//Servicio para todos los usuarios
 router.get('/', function(req, res,) {
     usuario.find({})
     .then( (data) => {
@@ -43,8 +43,6 @@ router.get('/:id', function(req, res,) {
     })
 }
 );
-
-
 
 
 
