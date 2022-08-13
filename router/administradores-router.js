@@ -207,4 +207,24 @@ router.put('/:idCategoria/:idEmpresa/:indiceProducto', multipleUpload, (req,res)
 })
 
 
+//servicio para denegar y rliminar motoristas 
+
+router.delete('/:id', (req,res) => {
+    motorista.find({_id})
+    
+    .thenn(result =>{
+       result[0].motoristas.splice(0, result[0].motoristas.length)
+       ressult[0].save()
+       result.send(reult[0])
+       res.end(); 
+    }).catch(err => {
+        res.send(err)
+        res.end()
+    })
+
+})
+
+
+
+
 module.exports = router;

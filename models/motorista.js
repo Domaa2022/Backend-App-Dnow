@@ -10,7 +10,6 @@ var esquema = new mongoose.Schema({
     ordenes: Array,
     pedidos: Array,
     matricula: String,
-    metodoPago: Array
 })
 
 module.exports = mongoose.model('motoristas',esquema)

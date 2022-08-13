@@ -4,6 +4,7 @@
     "contraseña": "YuUMP987",
     "latitud":"151515",
     "longitud":"151554",
+    "estado": "disponible",
     "historialOrden": [
             {
     
@@ -32,6 +33,23 @@
                     "cantidad": 2,
                     "precio": 250.99
                 }
+            ]
+        },
+        {
+            "numeroPedido": 1,
+            "usuario": "Juan",
+            "correo": "Perez",
+            "fechaPago": "26\/06\/2022",
+            "total": 120,
+            "icv": 5,
+            "subTotal": 125,
+            "productos": [
+                {
+                    "nombreProducto": "Pastel Helado",
+                    "cantidad": 2,
+                    "precio": 150.99
+                }
+               
             ]
         }
     ],
