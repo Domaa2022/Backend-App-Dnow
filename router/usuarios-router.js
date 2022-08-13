@@ -16,6 +16,21 @@ router.get('/', function(req, res,) {
     })
 });
 
+
+// servicio para obtener ordenes de los usuarios 
+router.get('/ordenes', (req,res) => {
+    usuario.find({}, {pedidos: true})
+    .then(result => {
+        res.send(result)
+        res.end();
+    }).catch(err => {
+        res.send(err)
+        res.end()
+    }
+    )
+})
+
+
 //servicio para obtener pedidos de un usuario
 router.get('/pedidos', function(req, res,) {
     usuario.find({} ,{pedidos:true})
