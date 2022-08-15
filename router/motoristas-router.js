@@ -63,10 +63,11 @@ router.put('/:id', (req,res) => {
 
 //servicio para crear un nuevo motorista 
 router.post('/', function(req,res,){
+
     let m = new motorista({
         nombre: req.body.nombre,
          correo: req.body.correo,
-         contraseña: req.body,contraeña,
+         contraseña: req.body.contraseña,
          estado: req.body.estado,
          latitud: req.body.latitud,
          longitud: req.body.longitud, 
@@ -82,6 +83,7 @@ router.post('/', function(req,res,){
             res.send(err);
             res.end();
         });
+    
 });
 
 

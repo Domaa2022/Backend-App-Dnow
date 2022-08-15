@@ -207,7 +207,7 @@ router.put('/:idCategoria/:idEmpresa/:indiceProducto', multipleUpload, (req,res)
 })
 
 
-//servicio para denegar y rliminar motoristas 
+//servicio para denegar y eliminar motoristas 
 
 router.delete('/:id', (req,res) => {
     motorista.find({_id})
