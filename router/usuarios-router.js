@@ -3,6 +3,10 @@ var router = express.Router();
 var usuario = require('../models/usuario')
 var mongoose = require('mongoose');
 
+
+
+
+
 //Servicio para todos los usuarios
 router.get('/', function(req, res,) {
     usuario.find({})
@@ -169,6 +173,8 @@ router.delete('/:id' ,(req,res) =>{
     }) 
 })
 
+
+
 //Actualizar la ubicacion del usuario
 
 router.put('/:id', (req,res) => {
@@ -194,6 +200,26 @@ router.put('/:id', (req,res) => {
         }) 
 })
 
+router.put('/:id/:numeroPedido/:Estado', (req,res) => {
+    usuario.find({_id:req.params.id})
+    .then(result => {
+        result[0].pedidos.forEach(pedido => {
+            if(pedido.numeroPedido == req.params.numeroPedido){
+                pedido.Estado = req.params.Estado
+                pedido.Recibe = req.body.recibe
+                pedido.correoMotorista = req.body.correo
+            }
+        } )
+        result[0].markModified('pedidos');
+        result[0].save()
+
+
+    }).catch(err => {
+        res.send(err)
+        res.end()
+    })
+
+})
 
 
 

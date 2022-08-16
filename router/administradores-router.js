@@ -99,42 +99,10 @@ router.post('/:id', multipleUpload, (req,res) => {
 
 })
 
-//Ruta para actualizar una categoria
-router.put('/:id/:nombreEmpresa', multipleUpload, (req,res) => {
-    console.log(req.params.nombreEmpresa)
-    console.log(req.params.id)
-    
-    categoria.updateOne({_id:req.params.id, "empresas.nombreEmpresa":req.params.nombreEmpresa},{$set: {
-        "empresas.$.nombreEmpresa": req.body.nombreEmpresa,
-        "empresas.$.descripcion": req.body.Descripcion,
-        "empresas.$.logo": `http://localhost:3000/img/${req.files.imagen[0].filename}`,
-        "empresas.$.banner": `http://localhost:3000/img/${req.files.imagen2[0].filename}`,
-    }})
-    .then(result =>{
-        res.send(result)
-        res.end();
-    }
-    ).catch(err => {
-        res.send(err)
-        res.end()
-    })
-})
 
 
-//Ruta para eliminar una categoria
-router.delete('/:id/:indiceEmpresa', (req,res) => {
-    categoria.find({_id:req.params.id}).then(result =>{
-        result[0].empresas.splice(req.params.indiceEmpresa,1)
-        result[0].save()
-        res.send(result[0])
-        res.end();
-    }).catch(err => {
-        res.send(err)
-        res.end()
-    }
-    )
-}
-)
+
+
 
 // ruta para crear un producto 
 router.post('/:idCategoria/productos/:idEmpresa', multipleUpload, (req,res) => {
@@ -207,22 +175,18 @@ router.put('/:idCategoria/:idEmpresa/:indiceProducto', multipleUpload, (req,res)
 })
 
 
-//servicio para denegar y eliminar motoristas 
-
-router.delete('/:id', (req,res) => {
-    motorista.find({_id})
-    
-    .thenn(result =>{
-       result[0].motoristas.splice(0, result[0].motoristas.length)
-       ressult[0].save()
-       result.send(reult[0])
-       res.end(); 
+//obtener todos los motoristas 
+router.get('/motoristas', (req,res) => {
+    motorista.find().then(result =>{
+        res.send(result)
+        res.end();
     }).catch(err => {
         res.send(err)
         res.end()
-    })
-
-})
+    }
+    )
+}
+)
 
 
 

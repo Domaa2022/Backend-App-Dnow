@@ -65,15 +65,15 @@ router.put('/:id', (req,res) => {
 router.post('/', function(req,res,){
 
     let m = new motorista({
-        nombre: req.body.nombre,
-         correo: req.body.correo,
-         contraseña: req.body.contraseña,
-         estado: req.body.estado,
-         latitud: req.body.latitud,
-         longitud: req.body.longitud, 
-         ordenes: req.body.ordenes,
-         pedidos: req.body.pedidos,
-         matricula: req.body.matricula   
+        nombreMotorista: req.body.nombre,
+        correo: req.body.correo,
+        contraseña: req.body.contraseña,
+        estado: req.body.estado,
+        latitud: req.body.latitud,
+        longitud: req.body.longitud, 
+        ordenesPendientes: req.body.ordenesPendientes,
+        ordenesFinalizadas: req.body.ordenesFinalizadas,
+        matricula: req.body.matricula   
     });
         m.save()
         .then( (data)=> {
@@ -85,6 +85,55 @@ router.post('/', function(req,res,){
         });
     
 });
+
+router.put('/:id/:disponible', (req,res) => {
+    let u = {
+        Estado : req.body.Estado,
+        recibe : req.body.recibe,
+        correo : req.body.correo,
+        correoMotorista: req.body.correoMotorista,
+        numeroPedido : req.body.numeroPedido,
+        usuario : req.body.usuario,
+        productos: req.body.productos,
+    }
+    motorista.find({_id:req.params.id}).
+    then( (data)=> {
+        data[0].ordenesPendientes.push(u);
+        data[0].estado = req.params.disponible;
+        data[0].markModified('ordenesPendientes');
+        data[0].save()
+        res.send(data);
+    }).catch(err => {
+        res.send(err);
+        res.end();
+    }
+    )
+})
+
+router.put('/:id/entregado/:disponible', (req,res) => {
+    let u = {
+        Estado : req.body.Estado,
+        recibe : req.body.recibe,
+        correo : req.body.correo,
+        correoMotorista: req.body.correoMotorista,
+        numeroPedido : req.body.numeroPedido,
+        usuario : req.body.usuario,
+        productos: req.body.productos,
+    }
+    motorista.find({_id:req.params.id}).
+    then( (data)=> {
+        data[0].ordenesPendientes.splice(data[0].ordenesPendientes[0],1);
+        data[0].ordenesFinalizadas.push(u);
+        data[0].estado = req.params.disponible;
+        data[0].markModified('ordenesFinalizadas');
+        data[0].save()
+        res.send(data[0]);
+    }).catch(err => {
+        res.send(err);
+        res.end();
+    }
+    )
+})
 
 
 module.exports = router;
