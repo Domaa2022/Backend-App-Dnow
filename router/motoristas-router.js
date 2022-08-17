@@ -30,6 +30,21 @@ router.get('/:id', function(req, res,) {
 }
 );
 
+// servicio para eliminar un motorista
+router.delete('/:id', (req,res)  => {
+    motorista.find({_id:req.params.id})
+    .then(result => {
+        result[0].remove()
+        res.send(result[0])
+        res.end();
+    }).catch(err => {
+        res.send(err)
+        res.end()
+    }
+    )
+} )
+    
+
 
 
 
@@ -65,7 +80,7 @@ router.put('/:id', (req,res) => {
 router.post('/', function(req,res,){
 
     let m = new motorista({
-        nombreMotorista: req.body.nombre,
+        nombreMotorista: req.body.nombreMotorista,
         correo: req.body.correo,
         contraseña: req.body.contraseña,
         estado: req.body.estado,
@@ -86,6 +101,7 @@ router.post('/', function(req,res,){
     
 });
 
+//rutas para ordenes pendientes 
 router.put('/:id/:disponible', (req,res) => {
     let u = {
         Estado : req.body.Estado,
@@ -95,6 +111,8 @@ router.put('/:id/:disponible', (req,res) => {
         numeroPedido : req.body.numeroPedido,
         usuario : req.body.usuario,
         productos: req.body.productos,
+        ISV: req.body.isv,
+        total: req.body.total,
     }
     motorista.find({_id:req.params.id}).
     then( (data)=> {
@@ -110,6 +128,7 @@ router.put('/:id/:disponible', (req,res) => {
     )
 })
 
+//ruta para ordenes finializadas
 router.put('/:id/entregado/:disponible', (req,res) => {
     let u = {
         Estado : req.body.Estado,
@@ -133,6 +152,20 @@ router.put('/:id/entregado/:disponible', (req,res) => {
         res.end();
     }
     )
+})
+
+router.post('/:id/solicitud/', (req,res) => {
+    motorista.find({_id:req.params.id}).
+    then( result => {
+        result[0].estado = "disponible";
+        result[0].save()
+        res.send(result);
+        res.end();
+    })
+    .catch(err => {
+        res.send(err);
+        res.end();
+    })
 })
 
 
